@@ -1,0 +1,112 @@
+@media screen and(max-width: 760px) 
+
+
+body, p{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(95, 94, 94);
+    height: 100vh;
+
+} 
+
+.wrapper h2{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(95, 94, 94);
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0;
+    padding: 1em;
+}
+
+form{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.wrapper h4{
+    color: rgb(70, 66, 66);
+    font-size: 25px;
+    font-family: serif;
+    font-weight: lighter;
+    margin-bottom: 4px;
+}
+
+
+
+
+input[type="tel"] {
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(142, 142, 204);
+    margin-top: 1px;
+    padding: 2em auto;
+}
+
+.name{
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(142, 142, 204);
+    margin-top: 1px;
+    padding: 2em auto;
+}
+
+.dob{
+    width: 95%;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid rgb(142, 142, 204);
+    padding: 2em auto;
+    margin-top: 0.5em;
+    margin-right: 2em;
+}
+
+.radio{
+    width: 40px;
+    height: 20px;
+    border: 1px solid rgb(142, 142, 204);
+    margin-top: 1em;
+    
+}
+
+.input-box select{
+    border: 1px solid rgb(142, 142, 204);
+    height: 30px;
+    width: 15%;
+}
+
+.input-box button{
+    width: 98%;
+    border: 1px solid rgb(142, 142, 204);
+    background-color: rgb(95, 94, 94);
+    color: white;
+    margin-top: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    height: 30px;
+    padding: 2em auto;
+    font-size: 20px;
+}
+
+i {
+    color: rgb(95, 94, 94);
+    height:30px;
+}
+
+input[type="radio"] {
+    width: 100%
+    border: 1px solid rgb(142, 142, 204);
+    margin-left: 0;
+}
